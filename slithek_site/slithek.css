@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+	background-color: #44300D;
+	/*background-image: url(backgrounds/Sky%20Back.jpg);*/
+	background-size: cover;
+}
+
+body.picturePage {
+	background-color: #44300D;
+	background-size: cover;
+}
+
+body.musicPage {
+	background-image: url(images/space5000.png);
+	background-color: #000;
+	background-size: cover;
+}
+
+.PageBody {
+	margin: auto;
+}
+
+.PageTitle {
+	height:auto;
+	width:auto;
+	margin:auto;
+	text-align:center;
+	color: #FFF;
+}
+
+.contentContainer {
+	width: 480px;
+	height: auto;
+	background-color: #A39880;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border-radius: 10px;*/
+	opacity: .5;
+	filter: alpha(opacity=50);
+	box-shadow: 10px 10px 10px 0px rgba(5, 5, 5, 0.4);
+}
+
+.musicContainer {
+	width: 480px;
+	height: auto;
+	color: #000;
+	background-color: #FFF;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border-radius: 10px;*/
+	opacity: .65;
+	filter: alpha(opacity=65);
+	box-shadow: 10px 10px 10px 0px rgba(5, 5, 5, 0.4);
+}
+
+.tText {
+	color: #44300F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.pText {
+	color: #44300F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	word-wrap: normal;
+}
+
+.fText {
+	color: #44300F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin-top: 10px;
+	padding: 7px;
+	text-align: center;
+	bottom: 2px;
+}
+
+.bandCamp {
+	height: 450px;
+	width: 450px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0px;
+	border: 0;
+}
+
+.soundCloud {
+	height: 210px;
+	width: 450px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0px;
+	border: none;
+}
+
+.videoClass {
+	height: 360px;
+	width: 640px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0px;
+	border: none;
+}
+
+/*====================NAVIGATION STUFF===================*/
+
+#navBar {
+	padding: 0;
+	margin: 0;
+	position:fixed;
+	bottom: 0;
+	height: 30px;
+	width: 10000px;
+	background-image: url(images/navbar1.png);
+	background-repeat: repeat-x;
+}
+
+#startButton {
+	position: fixed;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin: 0px;
+	margin-left: -10px;
+	padding: 0px;
+	bottom: 0;
+	background-image: url(images/start_unclicked1.png);
+}
+
+#startButton:hover {
+	position: fixed;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin: 0px;
+	margin-left: -10px;
+	padding: 0px;
+	bottom: 0;
+	background-image: url(images/start_hover1.png);
+}
+
+
+/*==============NAVIGATION PANE===============*/
+
+
+.navPane {
+	background-image: url(images/nav_pane1.png);
+	width: 380px;
+	height: 480px;
+	bottom: 31px;
+	float: left;
+	display: none;
+	padding: 0;
+	margin: 0;
+	margin-left: -10px;
+	position:fixed;
+}
+
+.siteInfo {
+	width: 180px;
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+	text-align: left;
+	word-wrap: normal;
+	margin-top: 65px;
+	margin-left: 200px;
+	padding-left: 5px;
+	padding-right: 10px;
+	display: block;
+	float: left;
+}
+
+#navLinks {
+	position: fixed;
+	float: left;
+	display: inherit;
+	margin-top: 70px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 4px;
+	width: 180px;
+	height: 210px;
+}
+
+#home {
+	float: left;
+	display: inherit;
+	margin-top: 4px;
+	width: 180px;
+	height: 40px;
+	background-image: url(images/home1.png);
+	border: 2px solid #44300D;
+	border-radius: 2px;
+}
+#home:hover {
+	box-shadow: 2px 0px 10px 0px #44300D;
+}
+
+#music {
+	border: 2px #44300D;
+	float: left;
+	display: inherit;
+	margin-top: 4px;
+	width: 180px;
+	height: 40px;
+	background-image: url(images/music1.png);
+	border: 2px solid #44300D;
+	border-radius: 2px;
+}
+#music:hover {
+	box-shadow: 2px 0px 10px 0px #44300D;
+}
+
+#videos {
+	border: 2px #44300D;
+	float: left;
+	display: inherit;
+	margin-top: 4px;
+	width: 180px;
+	height: 40px;
+	background-image: url(images/videos1.png);
+	border: 2px solid #44300D;
+	border-radius: 2px;
+}
+#videos:hover {
+	box-shadow: 2px 0px 10px 0px #44300D;
+}
+
+#pictures {
+	border: 2px #44300D;
+	float: left;
+	display: inherit;
+	margin-top: 4px;
+	width: 180px;
+	height: 40px;
+	background-image: url(images/pictures1.png);
+	border: 2px solid #44300D;
+	border-radius: 2px;
+}
+#pictures:hover {
+	box-shadow: 2px 0px 10px 0px #44300D;
+}
+
+#games {
+	border: 2px #44300D;
+	float: left;
+	display: inherit;
+	margin-top: 4px;
+	width: 180px;
+	height: 40px;
+	background-image: url(images/games1.png);
+	border: 2px solid #44300D;
+	border-radius: 2px;
+}
+#games:hover {
+	box-shadow: 2px 0px 10px 0px #44300D;
+}
+
+
+/*==============END NAVIGATION PANE============*/
+
+
+/*---THIS SECTION IS FOR TOGGLING THE NAVPANE---*/
+
+input[id=toggle] {  /*this checks the checkbox*/
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	top: -9999px;
+	left: -9999px;
+}
+
+input[id=toggle]:checked ~ .navPane {
+	display: block;
+}
+
+input[id=toggle]:checked ~ #startButton {
+	background-image: url(images/start_clicked1.png);
+}
